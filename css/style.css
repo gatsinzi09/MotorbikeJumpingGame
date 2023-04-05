@@ -1,0 +1,21 @@
+/*#score {
+    text-align: center;
+}
+
+#game {
+           width: 300px;
+           height: 100;
+           border: 2px color black
+        
+
+
+         }/*
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+

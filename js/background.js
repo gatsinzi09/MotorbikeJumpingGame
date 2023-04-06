@@ -5,7 +5,7 @@ class Background {
     }
       draw() {
         // game.backgroundImage;
-        this.x -= 2
+        this.x -= 4
         image(this.backgroundImage, this.x, 0, 1000, 600)
         image(this.backgroundImage, this.x+1000, 0,1000,600 )
         if(this.x<= -1000) this.x=0

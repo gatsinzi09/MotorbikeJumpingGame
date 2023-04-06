@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/p5@1.6.0/lib/p5.js"></script>
+    <link rel="stylesheet" href="css/style.css"/>
+    <style>
+        body {
+            display: flex;
+            background: url("assets/sea.webp");
+            background-position: 0 0;
+            background-size: cover;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            font-family: sans-serif;
+            color: white;
+            font-size: 20px;
+            }
+
+    </style>
+</head>
+<body>
+<div id="timer">0:00</div>
+<div id="motorbike">
+<div id="motorcycle"></div>
+<div id="rock"></div>
+
+</div>
+<audio id="audio" src="./assets/audio/background-music.mp3" loop></audio>
+
+<script src="js/p5.gif.js"></script>
+<script src="js/obstacle.js"></script>
+<script src="js/background.js"></script>
+<script src="js/player.js"></script>
+<script src="js/games.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

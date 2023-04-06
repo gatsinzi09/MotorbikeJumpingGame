@@ -20,4 +20,6 @@ function keyPressed() {
 		game.player.jump()
 	}
 }
+
+
  

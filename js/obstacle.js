@@ -4,7 +4,7 @@ class Obstacle {
       this.height = 200;
       this.x = width;
       this.y = (Math.random() * height);
-      this.velocity = 10
+      this.velocity = 8
 
     }
   
